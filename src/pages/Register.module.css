@@ -1,0 +1,102 @@
+.regiSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8.5rem;
+  margin-bottom: 5rem;
+}
+
+.regiSec1 {
+  text-align: center;
+}
+
+.regiSec1 h1 {
+  margin: 1.5rem 0;
+}
+
+.regiSec1 button {
+  padding: 1rem 5rem;
+  margin-top: 2.5rem;
+}
+
+.regiSecIcon {
+  color: var(--primary-color);
+  font-size: 4rem;
+  text-align: center;
+}
+
+.regiSec2 {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-color);
+  width: 45%;
+
+  border-start-start-radius: 80px;
+  border-bottom-left-radius: 80px;
+  padding-right: 2rem;
+}
+
+.regiSec2 h2 {
+  text-align: center;
+  color: var(--tertiary-color);
+  margin: 1rem 0;
+}
+
+.regiSec2 button {
+  background: var(--tertiary-color);
+  color: var(--primary-color);
+  width: 40%;
+  padding: 1rem 4rem;
+  margin-bottom: 7px;
+  margin-left: auto;
+}
+
+.regiSec2 button:hover,
+.regiSec2 button:active {
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  border-color: var(--tertiary-color);
+}
+
+.regiSec2 input {
+  display: block;
+  margin-left: auto;
+  margin-bottom: 1.5rem;
+  padding: 1rem 4rem 1rem 1rem;
+  width: 85%;
+  outline: 0;
+}
+
+@media screen and (max-width: 1350px) {
+  .regiSec {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5rem;
+  }
+
+  .regiSec1 button {
+    display: none;
+  }
+
+  .regiSec1 {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  .regiSec2 {
+    width: 30rem;
+  }
+
+  @media screen and (max-width: 690px) {
+    .regiSec2 {
+      width: auto;
+    }
+  }
+
+  @media screen and (max-width: 368px) {
+    .regiSec1 p {
+      margin-left: 3rem;
+    }
+  }
+}

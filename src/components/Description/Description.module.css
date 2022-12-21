@@ -1,0 +1,59 @@
+.description {
+  display: flex;
+  margin: auto;
+  margin-top: 12rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.description h1 {
+  font-size: 2.3rem;
+}
+
+.description div:nth-of-type(2) {
+  width: 35%;
+  margin: auto auto auto 4rem;
+}
+
+.description button {
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 1350px) {
+  .description img {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 1036px) {
+  .description {
+    margin-top: 9rem;
+  }
+
+  .description img {
+    display: none;
+  }
+
+  .description div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+  }
+
+  .description h1 {
+    width: 100%;
+    font-size: 3.3rem;
+  }
+
+  .description p {
+    margin: 3rem 0;
+  }
+
+  .description button {
+    padding: 1rem 4.5rem;
+  }
+}

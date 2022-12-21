@@ -1,0 +1,21 @@
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  width: 261px;
+}
+
+.cardItem > * {
+  margin-bottom: 0.5rem;
+}
+
+.cardItem > a {
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 692px) {
+  .cardItem {
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+  }
+}

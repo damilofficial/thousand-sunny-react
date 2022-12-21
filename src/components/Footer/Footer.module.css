@@ -1,0 +1,22 @@
+.footer {
+  margin-top: 20rem;
+  width: 100%;
+}
+
+.container {
+  background-color: #f9f9fb;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 270px));
+  justify-content: space-evenly;
+  row-gap: 8px;
+  grid-auto-rows: auto;
+  padding: 0;
+}
+
+.footerP2 {
+  margin-top: 5rem;
+}
+
+.footer h3 {
+  margin: 1rem 0;
+}

@@ -1,0 +1,44 @@
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 11rem;
+  margin-bottom: 2.5rem;
+}
+
+.row1 h1 {
+  font-size: 2.3rem;
+}
+
+.viewAll2 {
+  display: none;
+}
+
+.row2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 270px));
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 692px) {
+  .row1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .row2 {
+    place-content: center;
+    row-gap: 3.5rem;
+  }
+
+  .viewAll1 {
+    display: none;
+  }
+
+  .viewAll2 {
+    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+  }
+}

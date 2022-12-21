@@ -1,0 +1,46 @@
+.form {
+  margin-top: 2rem;
+}
+
+.form select {
+  border-color: var(--secondary-lighter);
+  padding: 1rem 8rem 1rem 1rem;
+  outline: 0px;
+  border-radius: 7px;
+}
+
+.form button {
+  padding: 1rem 5.3rem;
+  display: block;
+}
+
+.form select,
+.form button {
+  margin: 2rem 2rem 0 0;
+  width: 14rem;
+}
+
+@media screen and (max-width: 1350px) {
+  .form select,
+  .form button {
+    width: 25rem;
+  }
+}
+
+@media screen and (max-width: 1036px) {
+  .form {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .form select,
+  .form button {
+    width: auto;
+  }
+
+  .form button {
+    font-size: 1rem;
+  }
+}
